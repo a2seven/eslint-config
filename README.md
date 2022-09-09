@@ -10,7 +10,7 @@ $ npm install @a2seven/eslint-config
 
 ## How to usage
 
-1. Add @a2seven/eslint-config package to your .eslintrc.js file:
+1. Add `@a2seven/eslint-config` package to your `.eslintrc.js` file:
 
 ```javascript
 module.exports = {
