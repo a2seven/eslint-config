@@ -7,6 +7,10 @@ ESLint config based in recommended best practices with custom rules
 ```bash
 $ npm install @a2seven/eslint-config
 ```
+or
+```bash
+$ yarn add @a2seven/eslint-config
+```
 
 ## How to usage
 
@@ -18,4 +22,21 @@ module.exports = {
         '@a2seven/eslint-config',
     ],
 };
+```
+
+2. Install dependencies from this list with npm/yarn:
+
+```json
+"@typescript-eslint/eslint-plugin": "^5.15.0",
+"@typescript-eslint/parser": "^5.15.0",
+"eslint": "^8.11.0",
+"eslint-config-airbnb-base": "^15.0.0",
+"eslint-config-prettier": "^8.5.0",
+"eslint-plugin-import": "^2.25.4",
+"eslint-plugin-max-params-no-constructor": "^0.0.4",
+"eslint-plugin-no-loops": "^0.3.0",
+"eslint-plugin-prettier": "^4.0.0",
+"eslint-plugin-promise": "^6.0.0",
+"eslint-plugin-simple-import-sort": "^7.0.0",
+"prettier": "^2.6.0"
 ```
