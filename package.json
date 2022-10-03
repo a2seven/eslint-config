@@ -6,7 +6,7 @@
   "private": false,
   "license": "MIT",
   "main": "index.js",
-  "peerDependency": {
+  "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.15.0",
     "@typescript-eslint/parser": "^5.15.0",
     "eslint": "^8.11.0",
