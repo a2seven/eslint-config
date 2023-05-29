@@ -95,8 +95,11 @@ module.exports = {
       {
         'selector': 'variable',
         'types': ['boolean'],
-        'format': ['StrictPascalCase'],
-        'prefix': ['is', 'has',]
+        'format': [
+          'StrictPascalCase',
+          'UPPER_CASE',
+        ],
+        'prefix': ['is', 'has', 'IS_', 'HAS_'],
       },
     ],
     'max-classes-per-file': ['error', 1],
